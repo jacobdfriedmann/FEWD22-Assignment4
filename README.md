@@ -24,7 +24,6 @@ Relaxr was really impressed by your work last week and wants you to continue dev
 - Use the correct ```Open Sans``` Google Font typeface to style the text denoted in the [design file](starter_code/readme) and according to the JPEG provided
 - Use proper filename conventions (lowercase, .html)
 - Use a single external CSS stylesheet to style all pages
-- Use a background image for the headers
 - Add a hover effect to all the links using pseudo-classes
 - Integrate drop caps using pseudo-element
 
