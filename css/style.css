@@ -43,6 +43,199 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
+  font-family: "Open Sans", helvetica; 
+  clear: both;
+  overflow: auto;
+}
+
+
+header {
+  background-color: #033048;
+}
+
+h1 {
+  float: left;
+  width: 30%;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.headernav {
+  float: right;
+  width: 70%;
+  padding: 10px;
+}
+
+.headerlist {
+  list-style-type: none;
+  float: left;
+  width: 20%;
+  color: #f9e42e;
+  padding: 10px;
+}
+
+.rightside {
+  width: 70%;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  overflow: auto;
+}
+
+main {
+  background-color: #f0efef;
+  overflow: auto;
+  clear: both;
+}
+
+.firstsection {
+  float: left;
+  width: 70%;
+}
+
+
+.secondsection {
+  float: left;
+  width: 70%;
+  background-color: ;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 800;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  color: #033048;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  padding-right: 10px;
+  clear: both;
+  overflow: auto;
+  display: inline;
+}
+
+p {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.rightside p::first-letter {
+  font-size: 40px;
+}
+
+nav {
+  float: left;
+  width: 100%;
+  clear: both;
+}
+
+.About {
+  float: left;
+  width: 100%;
+  padding-top: 20px;
+  clear: both;
+}
+
+.ad {
+  float: left;
+  width: 100%;
+  clear: both;
+}
+
+.sidebarheader {
+  font-size: 32px;
+  font-weight: 800;
+  padding-bottom: 25px;
+}
+
+img {
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
+
+
+a {
+  font-size: 24px;
+  font-weight: 600;
+  color: #033048;
+  float: right;
+  padding: 20px;
+}
+
+a:hover {
+  color: #f9e42e;
+}
+
+.signup {
+  background-color: #f9e42e;
+  text-align: center;
+  padding: 25px;
+}
+
+button {
+  background-color: #033048;
+  color: white;
+  font-style: bold;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 800;
+}
+
+footer {
+  text-align: center;
+  background-color: #121212;
+  padding: 20px;
+}
+
+.footerlogo {
+  color: #f9e42e;
+  padding: 25px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.socialmedia {
+  text-align: center;
+  margin: auto;
+}
+
+.socialmedia img {
+  width: 10%;
+  overflow: auto;
+  text-align: center;
+  width: 5%;
+}
+
+.categories {
+  font-size: 22px;
+  font-weight: 22;
+}
+
+.About p {
+  font-size: 22px;
+  font-weight: 22;
+}
+
+span {
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  clear: both;
+}
+
+hr {
+  clear: both;
+  color: #033048;
 }
 
 /******************************************
@@ -52,6 +245,9 @@ body {
 #container {
   width: 960px;
   margin: auto;
+  padding-left: 30px;
+  padding right: 30px;
+  
 }
 
 
