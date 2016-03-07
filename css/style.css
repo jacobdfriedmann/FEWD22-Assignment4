@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Blog
+Client: Relaxr
+Author: Colleen O'Reilly
+Developer @GA in DC
 */
 
 
@@ -43,17 +43,284 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.4;
 }
+
+.navbar {
+  background-color: #033048;
+  padding: 0px;
+}
+
+.hlogo {
+  color: white;
+  font-weight: 800;
+  font-size: 32px;
+  width: 25%;
+  float: left;
+  padding: 20px;
+}
+
+.headerlogo {
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+  float: left;
+}
+
+#headcontainer {
+  width: 100%;
+  margin: auto;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 400px;
+}
+
+.header-style{ 
+  color: white;
+  width: 80%;
+  margin: auto;
+}
+
+.headerlogo {
+  font-weight: 600;
+  font-size: 24px;
+  padding: 30px;
+  text-align: center;
+}
+
+.headh1 {
+  font-weight: 600;
+  font-size: 24px;
+  padding: 30px;
+  text-align: center;
+}
+
+.listh2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #033048;
+}
+
+blockquote{
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding: 3% 20% 5%;
+  font-weight: 600;
+  margin: auto;
+}
+
+cite {
+  font-style: normal;
+  font-weight: 600;
+}
+
+nav li {
+  padding: 25px 10px 20px;
+  color: #f9e42e;
+  display: inline-block;
+  list-style: none;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+footer {
+  background: #121212;
+  text-align: center;
+  color: #ffffff;
+  min-height: 200px;
+}
+
+.footerbutton {
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 12px;
+  border: 0px;
+  width: 150px;
+  height: 40px;
+  background: #033048;
+  color: #ffffff;
+  margin: 20px;
+}
+
+.footerbuttonwrap {
+  background: #f9e42e;
+  text-align: center;
+}
+
+.social {
+  width: 90px;
+  margin: auto;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+  padding: 30px;
+}
+
+small {
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.quotewrapper {
+  margin: auto;
+  background: url(../images/testimonial_bg.jpg) 
+}
+
+.headerbuttonwrap {
+  text-align: center;
+}
+
+.headerbutton {
+  border-radius: 5px;
+  font-weight: 800;
+  border: 0px;
+  width: 150px;
+  height: 40px;
+  font-size: 14px;
+  background-color: #f9e42e;
+}
+
+.contentbackground {
+  width: 100%;
+  background-color: #f0efef;
+}
+
+.contentstyle {
+  font-size: 13px;
+  font-weight: 300;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  color: #606161;
+}
+
+
+.blogpost {
+  padding: 20px;
+  width: 660px;
+  float: right;
+}
+
+.blogphotos {
+  width: 600px;
+  height: 240px;
+}
+
+.blogbreak {
+  width: 100%;
+  margin: 10px 0;
+  border-bottom: 1px solid #033048;
+}
+
+article h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 20px 0;
+  color: #033048;
+}
+
+article p {
+  font-size: 24px;
+  font-weight: 300;
+  padding: 30px 0;
+  color: #606161;
+}
+
+article a {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #033048;
+  text-align: right;
+  display: block;
+}
+
+section h3 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #033048;
+  padding: 10px 0;
+}
+
+section p {
+  font-size: 22px;
+  font-weight: 300;
+  color: #033048;
+}
+
+section a {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #033048;
+}
+
+section ul {
+  font-size: 24px;
+  font-weight: 300;
+  color: #033048;
+}
+
+.sidesection {
+  padding: 20px 0;
+}
+
+.headerlinks {
+  text-decoration: none;
+  color: #f9e42e;
+}
+
+article p:first-letter {
+  font-size: 90px; 
+  line-height: 80px;
+  float: left;
+  padding: 3px 8px 0px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 #container {
-  width: 960px;
+  max-width: 960px;
   margin: auto;
 }
 
+.navlinkgroup {
+  float: left;
+  width: 75%;
+}
 
+.navlinks {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
 
+.main-column {
+  width: 700px;
+  float: left;
+}
 
+.sidebar {
+  width: 240px;
+  float: left;
+}
+
+.ad-unit {
+  width: 200px;
+  height: 800px;
+}
