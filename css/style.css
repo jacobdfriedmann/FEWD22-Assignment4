@@ -1,7 +1,7 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Relaxr Blog
+Client: Relaxr
+Author: Jessica Lewis
 Developer @GA in NYC
 */
 
@@ -23,16 +23,13 @@ Developer @GA in NYC
   display: table;
   clear: both;
 }
-
 .clear {
   clear: both;
 }
-
 .alignright {
   float: right;
   padding: 0 0 10px 10px; /* note the padding around a right floated image */
 }
-
 .alignleft {
   float: left;
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
@@ -41,19 +38,222 @@ Developer @GA in NYC
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
 body {
+ color: #606161;
+ font-size: 24px;
+ line-height: 1.4;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 300;
 }
-
+button {
+  border-radius: 5px;
+  padding: 8px 35px;
+  text-align: center;
+  margin: 10px;
+}
+hr {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background: #033048;
+  margin-bottom: 30px;
+}
+.navigation {
+  background-color: #033048;
+}
+footer {
+  background: #121212;
+  color: #fff;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
-
 #container {
+  border-box: box-sizing;
   width: 960px;
   margin: auto;
+  background: #f0efef;
+
+}
+/*.left-gutter {
+  width: 10px;
+  float: left;
+  margin-right: 10px;
+}
+.right-gutter { 
+  width: 10px;
+  float: left;
+  margin-left: 10px;
+}*/
+.logo {
+  border-box: box-sizing;
+  width: 20%;
+  float: left;
+  padding: 20px 0;
+}
+.nav-items {
+  border-box: box-sizing;
+  width: 80%;
+  float: left;
+  padding: 20px 0 0 200px;
+}
+.main-blog-posts {
+  border-box: box-sizing;
+  width: 700px;
+  float: left;
+  background: #f0efef;
+  padding: 40px 0 40px 50px;
+}
+.full-article {
+  border-box: box-sizing;
+  float: right;
+}
+.side-nav {
+  border-box: box-sizing;
+  width: 240px;
+  float: left;
+  padding: 40px 40px 0 0;
+  margin-left: 12px;
+}
+.sign-up {
+  border-box: box-sizing;
+  background: #f9e42e;
+  text-align: center;
+}
+.sign-up-containter {
+  border-box: box-sizing;
+  width: 40%;
+  margin: auto;
+  padding: 40px 30px;
+}
+.footer-container {
+  border-box: box-sizing;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+}
+/******************************************
+/* HEADER
+/*******************************************/
+.logo {
+  font-weight: 800;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+.nav-items li {
+  list-style: none;
+  display: inline-block;
+  color: #f9e42e;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0 30px 0 0;
+}
+.nav-items a {
+  color: #f9e42e;
+  text-decoration: none;
+}
+.nav-items a:hover {
+  border-top: 2px solid #606161;
 }
 
+/******************************************
+/* BLOG POSTS
+/*******************************************/
+.post-title {
+  font-weight: 600;
+  font-size: 40px;
+  color: #033048;
+}
+.blog-post-img {
+  max-width: 640px;
+}
+.full-article {
+  padding: 30px 15px;
+}
+.main-blog-posts p::first-letter {
+  float: left;
+  font-size: 55px;
+  line-height: 1;
+  font-weight: 600;
+  margin: 10px 10px 0 0;
+}
+.more {
+  text-decoration: none;
+  color: #033048;
+  font-weight: 600;
+  font-size: 24px;
+}
+.more:hover {
+  border-bottom: 3px solid #f9e42e;
+}
+/******************************************
+/* SIDEBAR
+/*******************************************/
+.side-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: #033048;
+  line-height: 1.4;
+}
+.side-about,
+.ad {
+  margin-top: 20px;
+}
+.side-category-list {
+  font-size: 24px;
+  font-weight: 300;
+}
+.side-about p {
+  font-size: 22px;
+  font-weight: 300;
+}
+.about-more {
+  text-decoration: none;
+  color: #033048;
+  font-weight: 600;
+  font-size: 22px;
+}
+.about-more:hover {
+  border-bottom: 3px solid #f9e42e;
+}
+.ad {
+  background: #fff;
+  text-align: center;
+  padding: 5px 5px 300px 5px;
+}
 
+/******************************************
+/* SECTION SIGN UP
+/*******************************************/
 
+#btn-sign-up {
+  font-weight: 800;
+  font-size: 12px;
+  background: #033048;
+  border: 1px solid #033048;
+  color: #fff;
+}
+
+/******************************************
+/* FOOTER
+/*******************************************/
+footer p {
+  font-weight: 600;
+  font-size: 9px;
+}
+footer p:first-child {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+  margin-bottom: 30px;
+}
+footer a:hover {
+  border-bottom: transparent;
+}
+.img-size {
+  padding: 0 20px 0 0;
+  margin-bottom: 30px;
+}
 

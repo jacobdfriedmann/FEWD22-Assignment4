@@ -2,25 +2,111 @@
 <html lang="en">
 	<head>
     	<meta charset="utf-8">
-    	<meta name="description" content="Your description goes here">
-    	<meta name="keywords" content="one, two, three">
-
-		<title>Blank Template</title>
-
-		<!-- external CSS link -->
+    	<meta name="description" content="Read up on Relaxr's latest blog posts">
+    	<meta name="keywords" content="Relaxr, travel blog, travel tips">
+		<title>Relaxr | Travel Blog</title>
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
-
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,600,800' rel='stylesheet' type='text/css'>
 	</head>
+
 	<body>
 		<div id="container">
-			<header>
-				<h1>Blank Template</h1>
-				<h2>Just another blank template</h2>
+			<header class="navigation clearfix">
+				<h1 class="logo">Relaxr</h1>
+				<nav class="nav-items">
+					<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Team</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="blog.html">Blog</a></li>
+					</ul>
+				</nav>
 			</header>
+
+			<div class="clearfix">
+				<div class="left-gutter"></div>
+				<main class="main-blog-posts">
+					<article class="first-post">
+						<h2 class="post-title">How I implemented Relaxr in 2 weeks and changed my life.</h2>
+						<img class="blog-post-img" src="images/blog_photo1.jpg" alt="Rowing Competition">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis mauris ac justo mattis molestie. Mauris condimentum consectetur lectus et lobortis. Phasellus ac commodo tellus. Fusce tincidunt metus vitae dui sagittis, in consectetur libero hendrerit. Sed nec velit ac lacus tincidunt vulputate id a tellus. Aliquam non imperdiet odio. Mauris at tellus et ipsum pellentesque pulvinar.
+						</p>
+						<div class="full-article clearfix">
+							<a class="more" href="#">Read More ></a>
+						</div>
+						<hr>
+					</article>
+
+					<article class="second-post">
+						<h2 class="post-title">I traveled across the globe thanks to Relaxr’s Excel automation</h2>
+						<img class="blog-post-img" src="images/blog_photo2.jpg" alt="Boats">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis mauris ac justo mattis molestie. Mauris condimentum consectetur lectus et lobortis. Phasellus ac commodo tellus. Fusce tincidunt metus vitae dui sagittis, in consectetur libero hendrerit. Sed nec velit ac lacus tincidunt vulputate id a tellus. Aliquam non imperdiet odio. Mauris at tellus et ipsum pellentesque pulvinar.
+						</p>
+						<div class="full-article clearfix">
+							<a class="more" href="#">Read More ></a>
+						</div>
+						<hr>
+					</article>
+				</main>
+
+				<aside class="side-nav"><!-- start side nav -->
+
+					<div class="categories">
+						<h3 class="side-title">Categories</h3>
+						<ul class="side-category-list">
+							<li>Success stories</li>
+							<li>Stats</li>
+							<li>How tos</li>
+							<li>Best of</li> 
+							<li>Business tips</li>
+						</ul>
+					</div>
+
+					<div class="side-about">
+						<h3 class="side-title">About Relaxr</h3>
+						<p>
+							Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.<br>
+							<a class="about-more" href="#">Learn More</a>
+						</p>
+					<div>
+
+					<div class="ad">
+						<h3 class="side-title">Ad Unit</h4>
+					</div>
+
+					<div class="right-gutter"></div>
+				</aside><!-- end side nav -->
+
+			</div>
+
+			<!-- Button --> 
+			<section class="sign-up clearfix">
+				<div class="sign-up-container">
+					<button type="button" id="btn-sign-up">Sign Up Now!</button>
+				</div>
+			</section>
+
 			<footer>
-				&copy; Footer Goes Here
-			</footer>
+				<div class="footer-container">
+					<p>
+						Relaxr
+					</p>
+					<a href="http://www.twitter.com" target="_blank">
+						<img class="img-size" src="images/twitter.png" alt="Twitter">
+					</a>
+					<a href="http://www.facebook.com" target="_blank">
+						<img class="img-size" src="images/facebook.png" alt="Facebook">
+					</a>
+					<p>
+						&copy; Copyright 2016. Relaxr.  
+					</p>
+				</div>
+			</footer> 
+
 		</div><!-- #container -->
 	</body>
 </html>
