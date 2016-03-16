@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Blog
+Client: Relaxr
+Author: Manuel Leon
+Developer @GA in DC
 */
 
 
@@ -43,6 +43,115 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
+  font-family: 'Open Sans', sans-serif;
+}
+header {
+  background-color: #033048;
+  padding: 20px 50px;
+}
+article {
+  float: left;
+  width: 700px;
+  padding: 50px 20px 50px 50px;
+  box-sizing: border-box;
+}
+aside {
+  float: left;
+  width: 240px;
+  padding: 50px 50px 50px 0px;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+  float: left
+}
+nav {
+  float: right;
+}
+a {
+  color: #f9e42e;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px;
+}
+.readmore:hover { 
+  background-color: #f9e42e;
+}
+.learnmore:hover {
+  background-color: #f9e42e;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #121212;
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 300;
+  color: #121212;
+  padding: 20px 0;
+  line-height: 150%;
+}
+.readmore {
+  vertical-align: right;
+  font-size: 22px;
+  font-weight: 600;
+  color: #121212;
+}
+h3 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #121212;
+}
+li {
+  font-size: 24px;
+  font-weight: 300;
+  color: #121212;
+  line-height: 150%;
+}
+section {
+  background-color: #f9e42e;
+  text-align: center;
+  padding: 15px;
+}
+input.btn2{
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 800;
+  color: white;
+  border-radius: 5px;
+  background-color: #033048;
+  padding: 5px 30px;
+  border: none;
+  margin: 10px 0 10px 0;
+}
+footer {
+  background-color: #121212;
+  text-align: center;
+  color: white;
+}
+.sidebar {
+  width: 25%;
+}
+.learnmore {
+  font-size: 22px;
+  font-weight: 600;
+  color: #121212;
+}
+.bottomlogo {
+  font-size: 40px;
+  font-weight: 800;
+  color: #f9e42e;
+  padding-top: 50px;
+}
+.copyright {
+  color: white;
+  font-size: 14px;
 }
 
 /******************************************
@@ -52,7 +161,30 @@ body {
 #container {
   width: 960px;
   margin: auto;
+  background-color: #f0efef;
 }
+img {
+  max-width: 100%;
+}
+.socialmedia {
+  padding: 25px;
+}
+.adunit {
+  padding-top: 25px;
+}
+.h3b {
+  padding-top: 25px;
+}
+.firstletter::first-letter {
+  font-size: 200%;
+  float: none;
+  vertical-align: top;
+  font-weight: 800;
+}
+.alignright {
+  float: right;
+}
+
 
 
 
