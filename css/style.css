@@ -43,6 +43,21 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+}
+header,
+section,
+article,
+main, 
+footer,
+nav {
+  padding: 10px;
+  margin: auto;
+}
+header {
+  background-color: #033048; 
+  height: 100px;
 }
 
 /******************************************
@@ -52,7 +67,171 @@ body {
 #container {
   width: 960px;
   margin: auto;
+  background-color: #f0efef; 
 }
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+
+}
+.logo {
+  float: left;
+  width: 25%;
+  padding-left: 20px; 
+  padding-top: 20px;
+  color: white;
+}
+nav {
+  float: left;
+  width: 75%;
+}
+.topnav {
+  float: right;
+  width: 80%;
+  font-size: 20px;
+  font-weight: 400;
+  list-style-type: none;
+  padding-top: 25px;
+  color: #f9e42e;
+  display: inline;
+  text-align: center;
+}
+.topnav li {
+   float: left; 
+   width: 20%;
+}
+aside {
+  float: right;
+  width: 200px;
+}
+h3 {
+  font: 48px;
+  font-weight: 700;
+  padding: 10px;
+}
+h4 {
+  font: 32px;
+  font-weight: 700;
+}
+/*Having trouble figuring out how to make the aside float */ 
+.categories li {
+  float: left;
+  width: 200px;
+  font-size: 24px;
+  padding-bottom: 20px;
+  list-style-type: none;
+  text-align: left;
+  font-weight: 200;
+
+}
+.about span {
+  font: 22px;
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+.ad-space {
+  padding-bottom: 20px;
+  width: 200px;
+  float: left;
+}
+article {
+  float: left;
+  width: 700px;
+  padding-left: 30px;
+  padding-top: 20px;
+  border-bottom: solid;
+  border-width: 3px;
+}
+h2 {
+  font-size: 40px;
+  padding: 10px;
+}
+p {
+  font-size: 24px;
+  font-weight: 100;
+  width: 640px;
+  padding-top: 15px;
+  font-weight: 100;
+}
+p::first-letter { 
+    font-size: 300%;
+    color: #033048;
+    float: left;
+    padding: 0px 5px 0px 0px;
+    font-weight: 500;
+}
+a:link {
+  text-decoration: none;
+}
+:link:hover {
+  color: red;
+}
+a:visited {
+    color: #f9e42e;
+}
+a.one:link {color:#000000;
+text-align: right;
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 60px;
+  float: right;
+  color: #033048;
+}
+a.one:visited {color:#0000ff;}
+a.one:hover {color:#ffcc00;}
+
+img {
+  height: auto;
+}
+/* I cant figure out how to differentiate the colors of the links between the nav and readmore links */
+ 
+section {
+  width: 100%;
+}
+.sign-up {
+  background-color: #f9e42e; /*yellow*/
+  padding-top: 20px;
+  text-align: center;
+  display: inline-block;
+}
+button {
+  background-color: #033048; /*dark blue*/
+  color: white;
+  padding: 15px 50px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bolder;
+  border: 5px;
+}
+/* I cant figure out how to add padding between the copyright text and social icons */
+
+footer {
+  width: 100%;
+  background-color: #121212;
+  text-align: center;
+}
+.logoend {
+  text-align: center;
+  padding-top: 25px;
+  color: #f9e42e;
+  margin: 10px;
+}
+.socialfooter span {
+  text-align: center;
+  margin: 10px;
+}
+.copyright {
+  color: white;
+
+}
+.fb {
+  padding-right: 10px;
+}
+.tw {
+  padding-left: 10px;
+}
+
+
 
 
 
