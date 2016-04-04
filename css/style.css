@@ -42,18 +42,72 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
-body {
+* {
+  font-family:'Open Sans', Sans-Serif;
+}
+
+* {
+  list-style: none;
+}
+
+.relaxr-logo {
+  font-size: 48px;
+  font-weight: 800;
+  color: #fff;
+}
+
+header {
+  background: #033048;
+  padding: 25px 0;
+  overflow: hidden; 
+}
+
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+
+footer .relaxr-logo {
+    color: #f9e42e;
+  margin-bottom: 68px;
+}
+
+.copyright {
+  color: white;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
-#container {
+.container {
   width: 960px;
-  margin: auto;
+  margin: 0 auto;
 }
 
+header .relaxr-logo {
+  float: left;
+}
 
+header nav {
+  float: right;
+}
 
+header nav ul li {
+  display: inline-block;
+  margin: 0 0 0 40px;
+  font-size: 24px;
+  color: #f9e42e;
+}
 
+.content {
+  float: left;
+  width: 80%;
+}
+
+.sidebar {
+  float: left;
+  width: 20%;
+  
+}
